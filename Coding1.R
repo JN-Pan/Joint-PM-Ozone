@@ -53,7 +53,7 @@ d$id.year <- d$year-2016
 
 ##preparation for full prediction
 #Standardization the full prediction data
-d_full_pre<-
+d_full_pre<-read.csv('d_full_pre.csv')
 
 d_full_pre$`population`=standardize(d_full_pre$`population`)
 d_full_pre$precipitation=standardize(d_full_pre$precipitation)
