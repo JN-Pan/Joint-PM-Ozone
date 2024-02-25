@@ -77,7 +77,6 @@ d2021$id.year <- rep(5,length(d2021$year))
 
 ##Dealing with response variable 
 # Define the quantile of each response variable
-d$o_max <- d$o_max*1000 # transfer from unit of ppm to ppb
 d$log_oz_max <- log(d$o_max)
 d$log_pm_mean <- log(d$pm_mean)
 
