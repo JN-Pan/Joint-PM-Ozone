@@ -544,10 +544,8 @@ stwcrps_gev = function(y, μ, σ, ξ, p) {
 }
 
 
-StwCRPS <- mean(stwcrps_gev(obs1,mu1,sigma,tail,0.70))
+StwCRPS <- mean(stwcrps_gev(obs_val,mu_val,sigma,tail,0.70))
 StwCRPS
-
-
 
 
 
